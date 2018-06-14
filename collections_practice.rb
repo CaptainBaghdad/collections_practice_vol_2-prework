@@ -13,7 +13,7 @@ end
 
 
 def first_wa(arr)
-  arr.select {|ele| ele.to_s.start_with?("wa")}.join[0]
+  arr.select {|ele| ele.to_s.start_with?("wa")}.join [0]
   
   
 end 

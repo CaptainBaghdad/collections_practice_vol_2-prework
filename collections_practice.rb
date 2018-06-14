@@ -10,3 +10,10 @@ def contain_a(arr)
   arr.select {|e| e.include?("a")}
   
 end 
+
+
+def first_wa(arr)
+  arr.select {|ele| ele.}
+  
+  
+end 

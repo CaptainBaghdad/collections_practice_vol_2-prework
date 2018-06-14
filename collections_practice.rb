@@ -20,6 +20,6 @@ end
 
 
 def remove_non_strings(arr)
-  arr.delete {|ele| ele.class !== String}
+  arr.delete {|ele| ele.class != String}
   
 end 

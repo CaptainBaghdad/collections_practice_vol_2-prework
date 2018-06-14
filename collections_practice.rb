@@ -5,3 +5,8 @@ def begins_with_r(arr)
   arr.all? {|ele| ele[0] == "r"}
   
 end 
+
+def contain_a(arr)
+  arr.select {|e| e.include?("a")}
+  
+end 

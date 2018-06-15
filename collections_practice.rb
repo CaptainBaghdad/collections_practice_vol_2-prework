@@ -29,6 +29,6 @@ end
 
 def count_elements(arr)
    c = 0  
-   arr.map {|k,v| puts k}
+   arr.map {|k,v| puts v}
   
 end 

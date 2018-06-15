@@ -32,11 +32,11 @@ def count_elements(arr)
   c = 0 
   arr.each do |each_hash|
   each_hash.each do |k,v|
-   if v 
+   each_hash[k]
      c +=1       
      nh[k] = v 
      nh[:count] = c 
-   end 
+    
   end 
   
   end 

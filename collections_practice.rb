@@ -35,12 +35,12 @@ def count_elements(arr)
         
          c ++
           k[v] = c
-       end 
+       
        
      else 
        k[v] = 1
      end 
-     
+   end
      end
   
 end 

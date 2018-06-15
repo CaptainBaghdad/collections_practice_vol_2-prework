@@ -23,3 +23,12 @@ def remove_non_strings(arr)
   arr.delete_if {|ele| ele.class != String}
   
 end 
+
+
+
+
+def count_elements(arr)
+   c = 0  
+   arr.map {|k,v| puts k}
+  
+end 

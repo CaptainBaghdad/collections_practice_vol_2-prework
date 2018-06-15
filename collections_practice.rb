@@ -29,6 +29,11 @@ end
 
 def count_elements(arr)
    c = 0  
-   arr.map {|k,v| puts v}
+   arr.each do |h| 
+     h.each do |k,v|
+       puts k
+     end 
+     
+     end
   
 end 

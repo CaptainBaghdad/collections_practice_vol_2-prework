@@ -32,15 +32,7 @@ def count_elements(arr)
    nh = Hash.new 0
    arr.each do |h| 
      h.each do |k,v|
-       if v 
-        
-         c +=1
-          k[v] = c
-       
-       
-     else 
-       k[v] = 1
-     end 
+       nh[]
    end
      end
   

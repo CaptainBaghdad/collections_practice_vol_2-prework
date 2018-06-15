@@ -28,6 +28,9 @@ end
 
 
 def count_elements(arr)
+  arr.each do |ele|
+  puts ele
   
+  end 
   
 end 

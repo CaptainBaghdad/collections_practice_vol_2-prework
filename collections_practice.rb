@@ -33,7 +33,7 @@ def count_elements(arr)
   arr.each do |each_hash|
   each_hash.each do |k,v|
    if v 
-     c +=l  
+     c +=1       
      nh[k] = v 
      nh[:count] = c 
    end 

@@ -28,9 +28,17 @@ end
 
 
 def count_elements(arr)
-  arr.each do |ele|
-  puts ele
-  
+  nh = Hash.new 0  
+  c = 0 
+  arr.each do |each_hash|
+  each_hash.each do |k,v|
+   if v 
+     c +=l  
+     nh[k] = v 
+     nh[:count] = c 
+   end 
   end 
   
+  end 
+  nh 
 end 

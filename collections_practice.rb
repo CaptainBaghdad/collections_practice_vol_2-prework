@@ -28,7 +28,8 @@ end
 
 
 def count_elements(arr)
-   c = 0  
+   c = 0 
+   nh = Hash.new(0)
    arr.each do |h| 
      h.each do |k,v|
        if v 

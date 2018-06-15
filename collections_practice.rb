@@ -33,7 +33,7 @@ def count_elements(arr)
      h.each do |k,v|
        if v 
         
-         c ++
+         c +=1
           k[v] = c
        
        

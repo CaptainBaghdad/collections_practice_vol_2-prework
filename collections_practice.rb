@@ -31,7 +31,13 @@ def count_elements(arr)
    c = 0  
    arr.each do |h| 
      h.each do |k,v|
-       puts k
+       if v 
+         k[v] = c
+         c ++
+       end 
+       
+     else 
+       k[v] = 1
      end 
      
      end
